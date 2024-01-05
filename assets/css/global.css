@@ -15,14 +15,14 @@ body {
 
 .main {
     margin: 1rem;
-    padding: 1ren;
+    padding: 1rem;
     border: 1px solid #fff;
     border-radius: .5rem;
 }
 
 .main::before {
     content: '';
-    background-image: url('../assets/img/background/background.svg');
+    background-image: url('../img/background/background.svg');
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;
@@ -34,9 +34,10 @@ body {
     z-index: -1;
 }
 
+
 .main::after {
     content: '';
-    background-image: url('../assets/img/background/background.svg');
+    background-image: url('../img/background/background.svg');
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;
@@ -47,4 +48,20 @@ body {
     right: 0;
     z-index: -1;
     transform: rotate(180deg);
+    top: auto;
+    left: auto;
+}
+
+@media only screen and (min-width: 768px) {
+    .main {
+        max-width: 1024px;
+        margin: 1rem auto;
+    }
+
+    .main::before
+    .main::after {
+        width: 70vw;
+    }
+
+   
 }

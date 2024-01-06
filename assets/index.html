@@ -14,9 +14,13 @@
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/acordeon.css">
+    <link rel="stylesheet" href="css/languages.css">
+    <link rel="stylesheet" href="css/potfolio.css">
+    <link rel="stylesheet" href="css/experience.css">
+   <link rel="stylesheet" href="css/skills.css">
 </head>
 <body>
-    <div class="main">
+    <main class="main">
         <header class="header">
             <img src="img/profile_5165744.png" alt="icone perfil" class="photo">
             <h1 class="title">Olá, <br>
@@ -25,26 +29,98 @@
             <div class="information">
                 <p class="job">Estudante</p>
                 <p class="location">Goiás - BR</p>
-                <p class="phone">(61)99999-9999</p>
-                <p class="email">ex@gmail.com</p>
+                <p class="phone"><a href="tel:(61)99999-9999">(61)99999-9999</a></p>
+                <p class="email"><a href="mailto:ex@gmail.com">ex@gmail.com</a></p>
             </div>
         
         </header>
 
-        <section class="arcodeon open">
+        <section class="arcodeon">
             <button class="trigger" type="button">
-                Idiomas
+                <h2>Skills</h2>
             </button>
 
             <div class="content">
-                <ul>
+                <div class="skills">
+                    <section class="tools">
+                        <h3>Habilidades profissionais:</h3>
+                        <ul>
+                            <li><img src="img/icons/languages/git.svg" alt=""></li>
+                            <li><img src="img/icons/languages/html.png" alt="Icone HTML"></li>
+                            <li><img src="img/icons/languages/css.png" alt="Icone CSS"></li>
+                            <li><img src="img/icons/languages/javascript.png" alt="Icone JavaScript"></li>
+                            <li><img src="img/icons/languages/github-big.svg" alt="Icone GitHub"></li>
+                        </ul>
+                    </section>
+                    <section class="personal">
+                        <h3>Habilidades pessoais:</h3>
+                        <ul>
+                            <li>Facilidade com tarefas práticas</li>
+                            <li>Comunicação </li>
+                            <li>Trabalho em Equipe</li>
+                            <li>Organização</li>
+                        </ul>
+                    </section>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="arcodeon">
+            <button class="trigger" type="button">
+                <h2>Idiomas</h2>
+            </button>
+
+            <div class="content">
+                <ul class="languages">
                     <li>Português</li>
                     <li>Inglês</li>
                     <li>Espanhol</li>
                 </ul>
             </div>
         </section>
-    </div>
+
+        <section class="arcodeon">
+            <button class="trigger" type="button">
+                <h2>Portifólio</h2>
+            </button>
+
+            <div class="content">
+                <ul class="portfolio">
+                    <li>
+                        <h3 class="title github">X-men</h3>
+                        <a href="https://juliakarolaynne.github.io/x-men/" target="_blank">https://juliakarolaynne.github.io/x-men/</a>
+                    </li>
+                    <li>
+                        <h3 class="title github">Calculadora</h3>
+                        <a href="https://juliakarolaynne.github.io/start-na-carreira/" target="_blank">https://juliakarolaynne.github.io/start-na-carreira/</a>
+                    </li>
+                    <li>
+                        <h3 class="title github">Pokedex</h3>
+                        <a href="https://juliakarolaynne.github.io/javascript-developer/pokedex/" target="_blank">https://juliakarolaynne.github.io/javascript-developer/pokedex/</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="arcodeon">
+            <button class="trigger" type="button">
+                <h2>Experiência Profissional</h2>
+            </button>
+
+            <div class="content">
+                <ul class="experience">
+                    <li>
+                        <h3 class="title">Front-end Developer  / dio.me</h3>
+                        <p class="period">Jan 2020 - Current</p>
+                        <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+                    </li>
+                    
+                </ul>
+            </div>
+        </section>
+
+    </main>
     <script src="js/arcodeon.js"></script>
 </body>
 </html>

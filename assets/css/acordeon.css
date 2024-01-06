@@ -27,6 +27,12 @@
     border: none;
 }
 
+.arcodeon .trigger h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    text-align: start;
+}
+
 .arcodeon .trigger:hover {
     cursor: pointer;
 }
@@ -38,7 +44,8 @@
     height: 1.5rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('../img/icons/arrow-top.svg')
+    background-image: url('../img/icons/arrow-top.svg');
+    transition: .25s;
 }
 
 .arcodeon.open .trigger::after{
@@ -46,9 +53,15 @@
 }
 
 .arcodeon .content {
-    display: none;
+    overflow: hidden;
+    height: 0;
+    opacity: 0;
+    transition:opacity .25s ease-in-out ;
 }
 
 .arcodeon.open .content {
     display: inline-block;
+    height: auto;
+    padding: 0 1rem 1rem 2rem;
+    opacity: 1;
 }

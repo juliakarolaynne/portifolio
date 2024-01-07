@@ -22,15 +22,19 @@
 <body>
     <main class="main">
         <header class="header">
-            <img src="img/profile_5165744.png" alt="icone perfil" class="photo">
+            <img src="img/profile.svg" alt="icone perfil" class="photo" id="profile.photo">
             <h1 class="title">Olá, <br>
-                eu sou a Júlia</h1>
+                eu sou <span id="profile.name">a Júlia K A Silva</span></h1>
         
             <div class="information">
-                <p class="job">Estudante</p>
-                <p class="location">Goiás - BR</p>
-                <p class="phone"><a href="tel:(61)99999-9999">(61)99999-9999</a></p>
-                <p class="email"><a href="mailto:ex@gmail.com">ex@gmail.com</a></p>
+                <p class="job" id="profile.job">Estudante</p>
+                <p class="location" id="profile.location">Goiás - BR</p>
+                <p class="phone">
+                    <a href="tel:(61)99999-9999" id="profile.phone">(61)99999-9999</a>
+                </p>
+                <p class="email">
+                    <a href="mailto:ex@gmail.com" id="profile.email"></a>ex@gmail.com</a>
+                </p>
             </div>
         
         </header>
@@ -44,17 +48,27 @@
                 <div class="skills">
                     <section class="tools">
                         <h3>Habilidades profissionais:</h3>
-                        <ul>
-                            <li><img src="img/icons/languages/git.svg" alt=""></li>
-                            <li><img src="img/icons/languages/html.png" alt="Icone HTML"></li>
-                            <li><img src="img/icons/languages/css.png" alt="Icone CSS"></li>
-                            <li><img src="img/icons/languages/javascript.png" alt="Icone JavaScript"></li>
-                            <li><img src="img/icons/languages/github-big.svg" alt="Icone GitHub"></li>
+                        <ul id="profile.skills.hardSkills">
+                            <li>
+                                <img src="img/icons/languages/git.svg" alt="">
+                            </li>
+                            <li>
+                                <img src="img/icons/languages/html.png" alt="Icone HTML">
+                            </li>
+                            <li>
+                                <img src="img/icons/languages/css.png" alt="Icone CSS">
+                            </li>
+                            <li>
+                                <img src="img/icons/languages/javascript.png" alt="Icone JavaScript">
+                            </li>
+                            <li>
+                                <img src="img/icons/languages/github-big.svg" alt="Icone GitHub">
+                            </li>
                         </ul>
                     </section>
                     <section class="personal">
                         <h3>Habilidades pessoais:</h3>
-                        <ul>
+                        <ul id="profile.skill.softSkills ">
                             <li>Facilidade com tarefas práticas</li>
                             <li>Comunicação </li>
                             <li>Trabalho em Equipe</li>
@@ -72,7 +86,7 @@
             </button>
 
             <div class="content">
-                <ul class="languages">
+                <ul class="languages" id="profile.languages">
                     <li>Português</li>
                     <li>Inglês</li>
                     <li>Espanhol</li>
@@ -122,5 +136,7 @@
 
     </main>
     <script src="js/arcodeon.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

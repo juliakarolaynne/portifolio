@@ -1,6 +1,7 @@
 
 async function fetchProfileData() {
-    const url = '';
-    const fetching = await fetch(url)
-    return await fetching.json()
+    const url = 'https://raw.githubusercontent.com/juliakarolaynne/portifolio/main/data/profile.json?token=GHSAT0AAAAAACMKFZH54IBL6DUFO73SJFYEZM3J4AA';
+    const response = await fetch(url)
+    const profileData = await response.json()
+    return profileData
 }

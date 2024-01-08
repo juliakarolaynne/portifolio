@@ -1,15 +1,15 @@
 {
     "name": "Júlia K A Silva",
-    "photo": "",
-    "job": "Tech Lead no S3 Bank",
-    "location": "São Paulo - SP",
-    "phone": "(16) 98159-7656",
-    "email": "renanjohannsen@gmail.com",
+    
+    "job": "Estudante",
+    "location": "Goiás - BR",
+    "phone": "(61) 99814-4314",
+    "email": "juuh2382@gmail.com",
     "skills": {
       "hardSkills": [
         {
           "name": "Git",
-          "logo": "https://raw.githubusercontent.com/juliakarolaynne/portifolio/01c970835f5d6468115bad311f510015fc925921/assets/img/icons/languages/git.svg?token=A5BPNL4X5BLGMX76U2O65LDFTMX42"
+          "logo": "https://raw.githubusercontent.com/juliakarolaynne/portifolio/9790726e52da69f26d03e0992b565cf8d91f723c/assets/img/icons/languages/git.svg?token=A5BPNL4C5LW2BP3BY6CB2BDFTNCRY"
         },
         {
           "name": "Java",

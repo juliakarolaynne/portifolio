@@ -30,9 +30,10 @@
         {
           "name": "Python",
           "logo": "https://raw.githubusercontent.com/juliakarolaynne/portifolio/main/assets/img/icons/languages/python-127-svgrepo-com.png"
-        }, {
+        }, 
+        {
           "name": "Bootstrap",
-          "logo": ""
+          "logo": "https://raw.githubusercontent.com/juliakarolaynne/portifolio/main/assets/img/icons/languages/bootstrap-fill-svgrepo-com.png"
         }
       ],
       "softSkills": [
@@ -55,6 +56,11 @@
     {
       "name": "Calculadora Usando HTML, CSS e JavaScript",
       "url": "https://github.com/juliakarolaynne/start-na-carreira",
+      "github": true
+    },
+    {
+      "name": "Perfil Github",
+      "url": "https://github.com/juliakarolaynne",
       "github": true
     }
   ],

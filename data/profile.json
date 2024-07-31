@@ -30,6 +30,10 @@
         {
           "name": "Bootstrap",
           "logo": "https://raw.githubusercontent.com/juliakarolaynne/portifolio/c90678a50df58689ecdea55ff436008a61742acc/assets/img/icons/languages/bootstrap.svg?token=A5BPNLZ4HDN7TJF5OA7VBCTFTNHLC"
+        },
+        {
+          "name": "Python",
+          "logo": ""
         }
       ],
       "softSkills": [

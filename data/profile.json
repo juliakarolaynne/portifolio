@@ -28,12 +28,11 @@
           "logo": "https://raw.githubusercontent.com/juliakarolaynne/portifolio/76ad064caf73c836b71447c2ace138bdacf9c8e6/assets/img/icons/languages/github-big.svg?token=A5BPNL6TDVJ5SXEOFZM2LW3FTND2S"
         },
         {
-          "name": "Bootstrap",
-          "logo": "https://raw.githubusercontent.com/juliakarolaynne/portifolio/c90678a50df58689ecdea55ff436008a61742acc/assets/img/icons/languages/bootstrap.svg?token=A5BPNLZ4HDN7TJF5OA7VBCTFTNHLC"
-        },
-        {
           "name": "Python",
-          "logo": "https://raw.githubusercontent.com/juliakarolaynne/portifolio/a00a60f1957a4d679ca2a4f307eb0df3ecaea2f8/assets/img/icons/languages/python2.svg"
+          "logo": "https://raw.githubusercontent.com/juliakarolaynne/portifolio/main/assets/img/icons/languages/python-127-svgrepo-com.png"
+        }, {
+          "name": "Bootstrap",
+          "logo": ""
         }
       ],
       "softSkills": [
